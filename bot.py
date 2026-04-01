@@ -1,13 +1,15 @@
+"""
+DOCUMENTATION:
+A console-based assistant in Python
+that can exchange greetings, take your name
+and solve basic math problems.
+"""
+
+
 def greet(bot_name, birth_year):
     print('Hello! My name is ' + bot_name + '.')
     print('I was created in ' + birth_year + '.')
 
-"""
-DOCUMENTATION:
-A console-based assistant in Python 
-that can exchange greetings, take your name, 
-and solve basic math problems.
-"""
 
 def remind_name():
     print('Please, remind me your name.')
